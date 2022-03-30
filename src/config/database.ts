@@ -1,3 +1,4 @@
 import sqlite from "sqlite3";
 
-sqlite.Database
+export const database = new sqlite.Database(":memory:");
+
